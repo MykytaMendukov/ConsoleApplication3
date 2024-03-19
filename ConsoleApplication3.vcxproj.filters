@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="validation">
+      <UniqueIdentifier>{974bd4ca-f32a-48b4-b22b-6962dac65873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{ba8f62cc-2423-458f-aad4-d3ff8795f95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user">
+      <UniqueIdentifier>{5defe69d-527f-44a0-9b0d-75a8e123a265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="const">
+      <UniqueIdentifier>{fd661aa9-3d4c-44e2-a9ad-af3e76419acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="const\error">
+      <UniqueIdentifier>{446a5ffd-eb0f-420d-9c71-626f54363d76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="validation.cpp">
+      <Filter>validation</Filter>
+    </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>user</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
+      <Filter>const\error</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="validation.h">
+      <Filter>validation</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>user</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>const\error</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
